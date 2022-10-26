@@ -11,7 +11,13 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * Displays some TextView whose text is set in the layout resource,
+ * or at runtime from available string resources.
+ * References to View objects are obtained via findViewById(int).
+ */
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         // Set the activity content from a layout resource
