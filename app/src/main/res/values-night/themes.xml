@@ -13,7 +13,7 @@
 <resources>
     <!-- Base application theme. -->
     <style name="Base.Theme.Ex01_ViewsAndResources" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your theme here. -->
+        <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>
