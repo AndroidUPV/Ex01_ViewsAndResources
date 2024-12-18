@@ -1,7 +1,7 @@
 <component name="CopyrightManager">
   <settings default="DADM">
     <module2copyright>
-      <element module="All" copyright="DADM" />
+      <element module="Project Files" copyright="DADM" />
     </module2copyright>
   </settings>
 </component>
