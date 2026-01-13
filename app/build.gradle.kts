@@ -15,14 +15,23 @@ plugins {
     alias(libs.plugins.kotlin.android)
 }
 
+kotlin {
+    compilerOptions {
+        languageVersion = org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_2
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
+    }
+}
+
 android {
     namespace = "upv.dadm.ex01_viewsandresources"
-    compileSdk = 35
+    compileSdk {
+        version = release(36)
+    }
 
     defaultConfig {
         applicationId = "upv.dadm.ex01_viewsandresources"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -42,9 +51,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "11"
-    }
+
 }
 
 dependencies {
